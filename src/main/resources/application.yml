@@ -3,11 +3,11 @@ server:
 
 spring:
   config:
-    import: optional:configserver:http://localhost:8085
+    import: optional:configserver:http://13.202.64.234:8085
   datasource:
-    url: jdbc:mysql://localhost:3306/algo-nexus-userService?createDatabaseIfNotExist=true
-    username: root
-    password: root
+    url: jdbc:mysql://avnadmin:AVNS_7mS1HHaf23qpdUGakxf@mysql-3823015a-hussainsadik194-0e47.i.aivencloud.com:15876/algo-nexus-userService?ssl-mode=REQUIRED
+    username: avnadmin
+    password: AVNS_7mS1HHaf23qpdUGakxf
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: USER-SERVICE
