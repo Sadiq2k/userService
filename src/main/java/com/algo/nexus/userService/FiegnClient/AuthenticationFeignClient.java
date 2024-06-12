@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.UUID;
 
-@FeignClient(name = "AUTH-SERVICE")
+@FeignClient(name = "AUTH-SERVICE",url = "http://15.206.170.132:8087")
 public interface AuthenticationFeignClient {
 
     @GetMapping("/auth/isBlocked/{userId}")

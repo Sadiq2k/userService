@@ -3,7 +3,7 @@ server:
 
 spring:
   config:
-    import: optional:configserver:http://15.206.170.132:8085
+    import: optional:configserver:http://15.206.170.132:8085  
   datasource:
     url: jdbc:mysql://avnadmin:AVNS_7mS1HHaf23qpdUGakxf@mysql-3823015a-hussainsadik194-0e47.i.aivencloud.com:15876/algo-nexus-userService?ssl-mode=REQUIRED
     username: avnadmin
